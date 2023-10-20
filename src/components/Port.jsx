@@ -1,10 +1,42 @@
-import React from "react";
-import { portText } from "@/constants";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import { portText } from "@/constants";
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Port = () => {
+
+  const horizontalRef = useRef(null);
+  const sectionRef = useRef([]);
+
+  useEffect(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+    
+    const horizontal = horizontalRef.current;
+    const sections = sectionRef.current;
+
+    let scrollTween = gsap.to(sections, {
+      xPercent: -120 * (sections.length - 1),
+      ease: "none",
+      scrollTrigger: {
+        trigger: horizontal,
+        start:"top 56px",
+        end: () => "+=" + horizontal.offsetWidth,
+        pin: true,
+        scrub: 1,
+        invalidateOnRefresh: true,
+        anticipatePin: 1,
+      }
+    })
+    return () => {
+      scrollTween.kill();
+    };
+      
+  }, []);
+
   return (
-    <section id="port">
+    <section id="port" ref={horizontalRef}>
       <div className="port__inner">
         <h2 className="port__title">
           portfolio <em>포폴 작업물</em>
@@ -13,7 +45,11 @@ const Port = () => {
         <div className="port__wrap">
           {portText.map((port, key)=>{
             return (
-              <article className="port__item p1" key={key}>
+              <article 
+                className={`port__item p${key + 1}`} 
+                key={key} 
+                ref={(el)=> (sectionRef.current[key] = el)}
+              >
                 <span className="num">{port.num}.</span>
                 <a href={port.code} className="link" target="_blank" rel="noreferrer noopener">
                   <Image src={port.img} alt={port.name} width={400} height={300} style={{width:"100%", height: "auto"}} />

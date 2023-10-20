@@ -11,11 +11,11 @@ const Footer = () => {
         </h2>
 
         <div className="footer__info">
-          <div class="left">
-              <div class="title">
+          <div className="left">
+              <div className="title">
                   <a href="https://github.com/chu9400/port2023-next" target="_blank" rel="noreferrer noopener">code view</a>
               </div>
-              <p class="desc">이곳에서 소스 코드를 볼 수 있습니다.</p>
+              <p className="desc">이곳에서 소스 코드를 볼 수 있습니다.</p>
           </div>
           <div className="right">
             <h3>social</h3>
