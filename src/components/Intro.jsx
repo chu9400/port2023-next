@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { introText } from "@/constants";
 
-
 const Intro = () => {
   return (
     <section id="intro">
@@ -27,10 +26,11 @@ const Intro = () => {
           </div>
           <div className="img">
             <Image 
-              src={introText.img} 
+              src={introText.img}
               alt="내 사진" 
               width={300} 
               height={300}
+              style={{width:"100%", height: "auto"}} /* 반응형 이미지 */
             />
           </div>
         </div>
