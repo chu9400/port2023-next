@@ -1,8 +1,8 @@
-import port01 from "../assets/img/port01.jpg";
-import port02 from "../assets/img/port02.jpg";
-import port03 from "../assets/img/port03.jpg";
-import port04 from "../assets/img/port04.jpg";
-import port05 from "../assets/img/port05.jpg";
+import port01 from "@/assets/img/port01.jpg";
+import port02 from "@/assets/img/port02.jpg";
+import port03 from "@/assets/img/port03.jpg";
+import port04 from "@/assets/img/port04.jpg";
+import port05 from "@/assets/img/port05.jpg";
 
 export const headerNav = [
     {
