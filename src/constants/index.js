@@ -55,7 +55,7 @@ export const siteText = [
         text: ["make", "site compliant with", "react.js"],
         title: "리액트를 이용한 사이트 제작",
         code: "https://github.com/chu9400/port2023-react",
-        view: "#",
+        view: "https://chu9400-port2023-react.netlify.app/",
         info: [
             "site coding",
             "production period : three days",
@@ -77,7 +77,7 @@ export const siteText = [
         text: ["make", "site compliant with", "next.js"],
         title: "넥스트를 이용한 사이트 제작",
         code: "https://github.com/chu9400/port2023-next",
-        view: "/",
+        view: "https://chu9400-port2023-next.netlify.app/",
         info: [
             "site coding",
             "production period : two days",

@@ -22,8 +22,8 @@ const Site = () => {
                   {site.title}
                 </h3>
                 <div className="btn">
-                  <a href={site.code}>code</a>
-                  <a href={site.view}>view</a>
+                  <a href={site.code} target="_blank" rel="noreferrer noopener">code</a>
+                  <a href={site.view} target="_blank" rel="noreferrer noopener">view</a>
                 </div>
                 <div className="info">
                   <span>{site.info[0]}</span>
