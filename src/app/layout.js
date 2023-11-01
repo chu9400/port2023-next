@@ -1,8 +1,8 @@
 import "@/assets/scss/style.scss";
 
 export const metadata = {
-  title: '포트폴리오 사이트 만들기 😇 Next-Site',
-  description: '한 가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다.',
+  title: "Hanul's Next-Site 😎",
+  description: "다양한 프레임워크를 통해 만드는 최한울의 포트폴리오 사이트",
   keyword: ["포트폴리오", "리액트", "뷰", "넥스트", "portfolio", "react.js", "vue.js", "next.js"],
 }
 

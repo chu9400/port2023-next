@@ -52,7 +52,7 @@ const Port = () => {
               >
                 <span className="num">{port.num}.</span>
                 <a href={port.code} className="link" target="_blank" rel="noreferrer noopener">
-                  <Image src={port.img} alt={port.name} width={400} height={300} style={{width:"100%", height: "auto"}} />
+                  <Image src={port.img} alt={port.name} width={400} height={300} style={{width:"100%", height: "250px"}} />
                 </a>
                 <h3 className="title">{port.title}</h3>
                 <p className="desc">{port.desc}</p>
