@@ -20,6 +20,10 @@
         margin-bottom: 16px;
         text-indent: -0.26vw;
 
+        @media (max-width: 480px) {
+            height: 6vw;
+        }
+
         em {
             font-size: 1.25rem;
             font-weight: 400;
@@ -39,6 +43,10 @@
             padding: 2.5rem;
             margin-right: 20px;
             transition: all 0.3s;
+
+            @media (max-width: 480px) {
+                width: 400px;
+            }
 
             &:hover {
                 height: 90vh;
@@ -78,6 +86,12 @@
                     border-radius: 10px;
                     filter: saturate(0%);
                     transition: all 0.3s;
+
+                    @media (max-width: 480px) {
+                        height: 200px !important;
+                    }
+
+                    
                     
                 }
             }
