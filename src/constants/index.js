@@ -3,7 +3,6 @@ import port01 from "@/assets/img/port01.jpg";
 import port02 from "@/assets/img/port02.jpg";
 import port03 from "@/assets/img/port03.jpg";
 import port04 from "@/assets/img/port04.jpg";
-import port05 from "@/assets/img/port05.jpg";
 
 export const headerNav = [
     {
@@ -89,12 +88,12 @@ export const siteText = [
 export const portText = [
     {
         num: "01",
-        title: "웹 표준 및 접근성 기반의 사이트",
-        desc: "반응형 디자인을 적용하고 각 섹션마다 코드를 분리하여 작업하였기 때문에 웹사이트의 유지보수와 확장이 훨씬 효율적입니다. 또한, 웹 페이지의 성능 향상을 위해 이미지 컴포넌트를 사용하여 강조해야 하는 이미지의 lazy loading 및 layout shift를 방지했습니다. 이러한 접근 방식을 통해 웹사이트의 성능을 최적화하였습니다.",
+        title: "인터렉티브 쇼핑몰 사이트",
+        desc: "이 프로젝트는 외국 기업의 쇼핑몰을 소개하는 감각적인 디자인 웹사이트를 제작하는 프로젝트입니다. 기존의 애니메이션 효과를 GSAP로 변경하여 더 화려하고 생산적인 코드로 수정했습니다. 작업을 진행하면서 새로운 HTML 태그와 GSAP 라이브러리의 숙련도를 향상시켜 의미 있는 프로젝트였습니다.",
         img: port01,
-        code: "https://github.com/chu9400/2023-tech_hub",
-        view: "https://mytechhub2023.netlify.app/",
-        name: "최한울의 웹표준 포트폴리오",
+        code: "https://github.com/chu9400/2023-qoo10_move",
+        view: "https://chu9400-qoo10move.netlify.app/",
+        name: "최한울 쇼핑몰 소개 포트폴리오",
     },
     {
         num: "02",
@@ -107,12 +106,12 @@ export const portText = [
     },
     {
         num: "03",
-        title: "인터렉티브 쇼핑몰 사이트",
-        desc: "이 프로젝트는 외국 기업의 쇼핑몰을 소개하는 감각적인 디자인 웹사이트를 제작하는 프로젝트입니다. 기존의 애니메이션 효과를 GSAP로 변경하여 더 화려하고 생산적인 코드로 수정했습니다. 작업을 진행하면서 새로운 HTML 태그와 GSAP 라이브러리의 숙련도를 향상시켜 의미 있는 프로젝트였습니다.",
+        title: "웹 표준 및 접근성 기반의 사이트",
+        desc: "반응형 디자인을 적용하고 각 섹션마다 코드를 분리하여 작업하였기 때문에 웹사이트의 유지보수와 확장이 훨씬 효율적입니다. 또한, 웹 페이지의 성능 향상을 위해 이미지 컴포넌트를 사용하여 강조해야 하는 이미지의 lazy loading 및 layout shift를 방지했습니다. 이러한 접근 방식을 통해 웹사이트의 성능을 최적화하였습니다.",
         img: port03,
-        code: "https://github.com/chu9400/2023-qoo10_move",
-        view: "https://chu9400-qoo10move.netlify.app/",
-        name: "최한울 쇼핑몰 소개 포트폴리오",
+        code: "https://github.com/chu9400/2023-tech_hub",
+        view: "https://mytechhub2023.netlify.app/",
+        name: "최한울의 웹표준 포트폴리오",
     },
     {
         num: "04",
@@ -123,15 +122,7 @@ export const portText = [
         view: "/",
         name: "최한울 포트폴리오",
     },
-    {
-        num: "05",
-        title: "작업 예정",
-        desc: "작업 예정",
-        img: port05,
-        code: "/",
-        view: "/",
-        name: "최한울 포트폴리오",
-    },
+
   
   ];
 
